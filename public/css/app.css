@@ -516,6 +516,28 @@
     color: white;
   }
 }
+@media (min-width: 320px) and (max-width: 1350px) {
+  footer {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+  }
+  footer p {
+    color: grey;
+    padding: 30px;
+  }
+}
+@media (min-width: 1351px) {
+  footer {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+  }
+  footer p {
+    color: grey;
+    padding: 30px;
+  }
+}
 /*!
  * Bootstrap v5.0.1 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
