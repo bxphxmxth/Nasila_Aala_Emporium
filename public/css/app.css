@@ -136,5 +136,26 @@
     margin-left: 40%;
   }
 }
+@media (min-width: 1351px) {
+  .section2 {
+    margin-top: 3%;
+  }
+  .section2 .LivingSaleClothes {
+    display: flex;
+    justify-content: space-between;
+  }
+  .section2 .LivingSaleClothes .img_1 img {
+    width: 90%;
+    position: inherit;
+  }
+  .section2 .LivingSaleClothes .img_1 p {
+    position: absolute;
+  }
+  .section2 .LivingSaleClothes .img_1 hr {
+    width: 500px;
+    margin-top: 15%;
+    position: absolute;
+  }
+}
 
 /*# sourceMappingURL=app.css.map */

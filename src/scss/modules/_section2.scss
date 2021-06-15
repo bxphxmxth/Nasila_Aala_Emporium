@@ -1,0 +1,44 @@
+@media (min-width : 320px) and (max-width: 1350px){
+
+    
+
+}
+
+@media (min-width : 1351px){
+     
+     .section2{
+
+          margin-top: 3%;
+
+          .LivingSaleClothes{
+               display: flex;
+               justify-content: space-between;
+
+               .img_1{
+
+                    img{
+                         width: 90%;
+                         // border: red solid;
+                         position: inherit;
+                    }
+
+                    p{
+                         position: absolute;
+
+                    }
+
+                    hr{
+                         width: 500px;margin-top: 15%;
+                         position: absolute;
+                    }
+
+
+
+
+
+               }
+
+          }
+     }
+
+}
