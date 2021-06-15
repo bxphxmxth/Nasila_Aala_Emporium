@@ -197,7 +197,6 @@
   }
   .section2 .LivingSaleClothes .img_1 img {
     width: 90%;
-    border: red solid;
     position: inherit;
     height: 250px;
   }
@@ -227,6 +226,21 @@
     margin-top: 9%;
     position: absolute;
     margin-left: 5%;
+  }
+}
+@media (min-width: 1351px) {
+  .section3 {
+    margin-top: 3%;
+  }
+  .section3 h2 {
+    text-align: center;
+  }
+  .section3 .divEnglobante {
+    border: red solid;
+    display: flex;
+  }
+  .section3 .divEnglobante .recentsProducts {
+    text-align: center;
   }
 }
 
