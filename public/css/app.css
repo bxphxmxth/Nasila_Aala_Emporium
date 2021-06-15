@@ -229,6 +229,56 @@
     margin-left: 5%;
   }
 }
+@media (min-width: 320px) and (max-width: 1350px) {
+  h2, .h2 {
+    text-align: center;
+    margin-top: 3%;
+  }
+
+  .recentsProducts {
+    text-align: center;
+  }
+
+  .section3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .section3 .divEnglobante {
+    border: red solid;
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    align-items: center;
+    margin-left: 10%;
+  }
+  .section3 .divEnglobante button {
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    color: white;
+    font-size: 10px;
+    margin-top: 10%;
+    position: absolute;
+    display: none;
+  }
+  .section3 .divEnglobante .card-text {
+    text-align: center;
+    font-size: 60%;
+    font-weight: bold;
+  }
+  .section3 .divEnglobante .price {
+    color: red;
+    text-align: center;
+    font-weight: bold;
+    font-size: 60%;
+  }
+  .section3 .divEnglobante span {
+    text-decoration: line-through;
+    color: grey;
+  }
+}
 @media (min-width: 1351px) {
   h2, .h2 {
     text-align: center;
@@ -242,12 +292,15 @@
   .section3 {
     display: flex;
     justify-content: center;
+    flex-direction: column;
   }
   .section3 .divEnglobante {
     border: red solid;
     display: flex;
     justify-content: space-around;
     width: 80%;
+    align-items: center;
+    margin-left: 10%;
   }
   .section3 .divEnglobante button {
     background-color: red;
@@ -267,6 +320,7 @@
   .section3 .divEnglobante .price {
     color: red;
     text-align: center;
+    font-weight: bold;
   }
   .section3 .divEnglobante span {
     text-decoration: line-through;
