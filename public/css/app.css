@@ -237,6 +237,8 @@
 
   .recentsProducts {
     text-align: center;
+    margin-top: 5%;
+    font-weight: bold;
   }
 
   .section3 {
@@ -245,7 +247,6 @@
     flex-direction: column;
   }
   .section3 .divEnglobante {
-    border: red solid;
     display: flex;
     justify-content: space-around;
     width: 80%;
@@ -287,6 +288,9 @@
 
   .recentsProducts {
     text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-weight: bold;
   }
 
   .section3 {
@@ -295,7 +299,6 @@
     flex-direction: column;
   }
   .section3 .divEnglobante {
-    border: red solid;
     display: flex;
     justify-content: space-around;
     width: 80%;
@@ -327,6 +330,28 @@
     color: grey;
   }
 }
+.section4 {
+  background-image: url(../img/cta-bg.jpg);
+  width: 100%;
+  height: 700px;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.section4 p {
+  color: white;
+  font-size: 400%;
+}
+.section4 button {
+  background-color: #d47878;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  color: wheat;
+}
+
 /*!
  * Bootstrap v5.0.1 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
