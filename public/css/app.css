@@ -51,27 +51,93 @@
     margin-left: 15%;
   }
 }
-body {
-  margin: 0;
-}
+@media (min-width: 320px) and (max-width: 1350px) {
+  body {
+    margin: 0;
+  }
 
-.section1 .divShop {
-  background-color: #F3F3F3;
-  display: flex;
-  height: 500px;
-  margin-top: 2%;
+  .section1 .divShop {
+    background-color: #F3F3F3;
+    display: flex;
+    height: 500px;
+    margin-top: 2%;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .section1 .divShop .h2h1pb {
+    border: red solid;
+    height: 300px;
+    margin-left: 5%;
+    margin-top: 5%;
+  }
+  .section1 .divShop .h2h1pb h2 {
+    color: #f65858;
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+  }
+  .section1 .divShop .h2h1pb h1 {
+    font-size: 60px;
+    margin: 0;
+    padding: 0;
+  }
+  .section1 .divShop .h2h1pb button {
+    background-color: #f65858;
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    color: #f1e5e5;
+  }
+  .section1 .divShop .divImg1 img {
+    height: 400px;
+    margin-top: 15%;
+    margin-left: 40%;
+    display: none;
+  }
 }
-.section1 .divShop .h2h1pb {
-  border: red solid;
-  height: 300px;
-  width: 40%;
-  margin-left: 15%;
-  margin-top: 5%;
-}
-.section1 .divShop .divImg1 img {
-  height: 400px;
-  margin-top: 15%;
-  margin-left: 40%;
+@media (min-width: 1351px) {
+  body {
+    margin: 0;
+  }
+
+  .section1 .divShop {
+    background-color: #F3F3F3;
+    display: flex;
+    height: 500px;
+    margin-top: 2%;
+  }
+  .section1 .divShop .h2h1pb {
+    border: red solid;
+    height: 300px;
+    width: 40%;
+    margin-left: 15%;
+    margin-top: 5%;
+  }
+  .section1 .divShop .h2h1pb h2 {
+    color: #f65858;
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+  }
+  .section1 .divShop .h2h1pb h1 {
+    font-size: 70px;
+    margin: 0;
+    padding: 0;
+  }
+  .section1 .divShop .h2h1pb button {
+    background-color: #f65858;
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    color: #f1e5e5;
+  }
+  .section1 .divShop .divImg1 img {
+    height: 400px;
+    margin-top: 15%;
+    margin-left: 40%;
+  }
 }
 
 /*# sourceMappingURL=app.css.map */
