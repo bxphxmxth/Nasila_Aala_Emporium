@@ -1,0 +1,33 @@
+.nav .emporium {
+  text-align: center;
+}
+@media (min-width: 320px) and (max-width: 1350px) {
+  .nav {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+@media (min-width: 1351px) {
+  .nav {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin-left: 15%;
+  }
+}
+
+/*# sourceMappingURL=app.css.map */
