@@ -1,12 +1,53 @@
 .section6{
     display: flex;
     margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
 
-    .square{
+    .square1{
+        background-color: #F3F3F3;
+        height: 300px;
+        // border: red solid;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
 
         i{
-            background-color: black;
+            font-size: 30px;
+            margin-top: 5%;
         }
+
+        p{
+            text-align: center;
+        }
+
+
+       
         
+    }
+
+    .square2{
+
+        background-color: #eb6161;
+        height: 300px;
+        // border: red solid;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+        i{
+            color: white;
+            font-size: 30px;
+            margin-top: 5%;
+        }
+
+        p{
+            text-align: center;
+        }
+
+
+
     }
 }

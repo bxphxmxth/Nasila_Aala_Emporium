@@ -355,9 +355,39 @@
 .section6 {
   display: flex;
   margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
 }
-.section6 .square i {
-  background-color: black;
+.section6 .square1 {
+  background-color: #F3F3F3;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.section6 .square1 i {
+  font-size: 30px;
+  margin-top: 5%;
+}
+.section6 .square1 p {
+  text-align: center;
+}
+.section6 .square2 {
+  background-color: #eb6161;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.section6 .square2 i {
+  color: white;
+  font-size: 30px;
+  margin-top: 5%;
+}
+.section6 .square2 p {
+  text-align: center;
 }
 
 /*!
