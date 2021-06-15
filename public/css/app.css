@@ -373,9 +373,16 @@
   }
   .section6 .square1 p {
     text-align: center;
+    color: #665d5d;
   }
   .section6 .square1 h3, .section6 .square1 .h3 {
     text-align: center;
+  }
+  .section6 .square1 button {
+    background-color: #352e2e;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
   }
   .section6 .square2 {
     background-color: #eb6161;
@@ -396,6 +403,11 @@
   .section6 .square2 h3, .section6 .square2 .h3 {
     text-align: center;
   }
+  .section6 .square2 button {
+    color: black;
+    border-radius: 5px;
+    padding: 5px;
+  }
 }
 @media (min-width: 1351px) {
   .section6 {
@@ -403,6 +415,7 @@
     margin-top: 5%;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 3%;
   }
   .section6 .square1 {
     background-color: #F3F3F3;
@@ -418,6 +431,13 @@
   }
   .section6 .square1 p {
     text-align: center;
+    color: #665d5d;
+  }
+  .section6 .square1 button {
+    background-color: #352e2e;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
   }
   .section6 .square2 {
     background-color: #eb6161;
@@ -434,6 +454,17 @@
   }
   .section6 .square2 p {
     text-align: center;
+  }
+  .section6 .square2 button {
+    color: black;
+    border-radius: 5px;
+    padding: 5px;
+  }
+}
+@media (min-width: 1351px) {
+  .section7 {
+    background-color: #505269;
+    display: flex;
   }
 }
 /*!
