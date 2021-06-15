@@ -136,6 +136,57 @@
     margin-left: 40%;
   }
 }
+@media (min-width: 320px) and (max-width: 1350px) {
+  .section2 {
+    margin-top: 3%;
+  }
+  .section2 .LivingSaleClothes {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .section2 .LivingSaleClothes .img_1 img {
+    width: 90%;
+    position: inherit;
+    height: 250px;
+  }
+  .section2 .LivingSaleClothes .img_1 p {
+    position: absolute;
+    color: white;
+    font-size: 50px;
+  }
+  .section2 .LivingSaleClothes .img_1 .living-room {
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin-top: 5%;
+  }
+  .section2 .LivingSaleClothes .img_1 .sale-items {
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin-top: 5%;
+  }
+  .section2 .LivingSaleClothes .img_1 .clothes {
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin-top: 5%;
+  }
+  .section2 .LivingSaleClothes .img_1 hr {
+    width: 400px;
+    margin-top: 9%;
+    position: absolute;
+    margin-left: 5%;
+    display: none;
+  }
+}
 @media (min-width: 1351px) {
   .section2 {
     margin-top: 3%;
@@ -152,9 +203,11 @@
   }
   .section2 .LivingSaleClothes .img_1 p {
     position: absolute;
+    color: white;
+    font-size: 50px;
   }
   .section2 .LivingSaleClothes .img_1 .living-room {
-    margin-left: 12%;
+    margin-left: 8%;
     margin-top: 5%;
   }
   .section2 .LivingSaleClothes .img_1 .sale-items {
@@ -170,9 +223,10 @@
     margin-top: 5%;
   }
   .section2 .LivingSaleClothes .img_1 hr {
-    width: 500px;
-    margin-top: 10%;
+    width: 400px;
+    margin-top: 9%;
     position: absolute;
+    margin-left: 5%;
   }
 }
 
