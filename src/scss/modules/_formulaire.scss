@@ -11,8 +11,8 @@
     }
     img#close {
     position:absolute;
-    right:-14px;
-    top:-14px;
+    right:-1px;
+    width: 30px;
     cursor:pointer
     }
     div#popupContact {
@@ -33,6 +33,26 @@
     }
     p {
     margin-top:30px
+    }
+    .popEmpo{
+        text-align: left;
+    }
+    .btnForm{
+        display: flex;
+        justify-content: space-around;
+
+        .btnstyleform{
+            background-color: red;
+             border-radius: 5px;
+             color: white;
+        }
+    }
+    .email{
+        margin: 0;
+        padding: 0;
+    }
+    .well{
+        color: grey;
     }
     h2 {
     background-color:#FEFFED;
@@ -82,19 +102,35 @@
     }
     #submit {
     text-decoration:none;
-    width:100%;
+    width:30%;
     text-align:center;
     display:block;
-    background-color:#FFBC00;
+    background-color:#523792;
     color:#fff;
     border:1px solid #FFCB00;
-    padding:10px 0;
     font-size:20px;
     cursor:pointer;
     border-radius:5px
     }
+    .logosForm{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 50%;
+        margin-left: 30%;
+
+        .fa-snapchat-ghost{
+            color: yellow;
+        }
+
+        .fa-facebook-f{
+            color: blue;
+        }
+
+
+    }
     span {
     color:red;
-    font-weight:700
+    font-weight:700;
     }
   
