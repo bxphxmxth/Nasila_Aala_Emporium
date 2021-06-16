@@ -1,4 +1,8 @@
 @charset "UTF-8";
+.nav {
+  position: fixed;
+  z-index: 1;
+}
 .nav .emporium {
   text-align: center;
 }
@@ -24,10 +28,43 @@
   cursor: pointer;
 }
 
+.changeNav {
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+.changeNav .emporium {
+  position: absolute;
+  bottom: 5%;
+}
+.changeNav .menu p {
+  cursor: pointer;
+}
+.changeNav .menu .nightModeCo .light {
+  background-color: white;
+  border-radius: 5px;
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+.changeNav .menu .nightModeCo .night {
+  background-color: black;
+  border-radius: 5px;
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+.changeNav .menu .nightModeCo .connexion {
+  background-color: #d1cccc;
+  cursor: pointer;
+}
+
 @media (min-width: 320px) and (max-width: 1350px) {
   .nav {
     display: flex;
     flex-direction: column;
+    width: 100%;
   }
 
   .menu {
@@ -41,6 +78,7 @@
   .nav {
     display: flex;
     flex-direction: column;
+    width: 100%;
   }
 
   .menu {

@@ -52,7 +52,7 @@ light.addEventListener("click", () => {
 
 //  Pop up connexion 
 
-//   Me 
+
 
 let openBtn = document.getElementsByTagName("button")[2];
 console.log(openBtn);
@@ -68,14 +68,14 @@ document.getElementById('abc').style.display = "none";
 }
 
 // / Validating Empty Field
-// function check_empty() {
-// if (document.getElementById('name').value == "" || document.getElementById('email').value == "" || document.getElementById('msg').value == "") {
-// alert("Fill All Fields !");
-// } else {
-// document.getElementById('form').submit();
-// alert("Form Submitted Successfully...");
-// }
-// }
+function check_empty() {
+if (document.getElementById('name').value == "" || document.getElementById('email').value == "" || document.getElementById('msg').value == "") {
+alert("Remplissez tous les champs !");
+} else {
+document.getElementById('form').submit();
+alert("Form Submitted Successfully...");
+}
+}
 
 // Div pop up inscription 
 
@@ -93,3 +93,24 @@ function div_show2() {
   }  
 
   btnInscription.addEventListener("click",showInscription)
+
+
+  // Nav scroll
+
+  let myNav = document.getElementsByClassName("nav")[0];
+  console.log(myNav);
+
+  window.onscroll = function () { 
+      "use strict";
+      if (document.body.scrollTop >= 200 ) {
+          
+          myNav.classList.remove("nav");
+          myNav.setAttribute("class","changeNav");
+          
+      } 
+      else {
+        myNav.setAttribute("class","changeNav");
+    //       myNav.classList.add("nav-transparent");
+    //       myNav.classList.remove("nav-colored");
+    //   }
+  }}
