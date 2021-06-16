@@ -325,6 +325,59 @@ body .nav .menu > p:hover {
     align-items: center;
     margin-left: 10%;
   }
+  .section3 .divEnglobante .animEnglobante {
+    position: absolute;
+    background-color: transparent;
+    height: 25%;
+    width: 100%;
+    bottom: 87px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: transparent;
+  }
+  .section3 .divEnglobante .animEnglobante .divBlack {
+    background-color: transparent;
+    width: 50%;
+    text-align: center;
+    color: white;
+    height: 50%;
+    color: transparent;
+  }
+  .section3 .divEnglobante .animEnglobante .divRed {
+    background-color: transparent;
+    width: 50%;
+    text-align: center;
+    color: white;
+    height: 50%;
+    color: transparent;
+  }
+  .section3 .divEnglobante .animEnglobante:hover {
+    position: absolute;
+    background-color: transparent;
+    height: 25%;
+    width: 100%;
+    bottom: 87px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .section3 .divEnglobante .animEnglobante:hover .divBlack {
+    background-color: black;
+    width: 50%;
+    text-align: center;
+    color: white;
+    height: 50%;
+    font-size: 50%;
+  }
+  .section3 .divEnglobante .animEnglobante:hover .divRed {
+    background-color: red;
+    width: 50%;
+    text-align: center;
+    color: white;
+    height: 50%;
+    font-size: 50%;
+  }
   .section3 .divEnglobante button {
     background-color: red;
     width: 50px;
@@ -377,6 +430,57 @@ body .nav .menu > p:hover {
     align-items: center;
     margin-left: 10%;
   }
+  .section3 .divEnglobante .animEnglobante {
+    position: absolute;
+    background-color: transparent;
+    height: 25%;
+    width: 100%;
+    bottom: 87px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: transparent;
+  }
+  .section3 .divEnglobante .animEnglobante .divBlack {
+    background-color: transparent;
+    width: 50%;
+    text-align: center;
+    color: white;
+    height: 50%;
+    color: transparent;
+  }
+  .section3 .divEnglobante .animEnglobante .divRed {
+    background-color: transparent;
+    width: 50%;
+    text-align: center;
+    color: white;
+    height: 50%;
+    color: transparent;
+  }
+  .section3 .divEnglobante .animEnglobante:hover {
+    position: absolute;
+    background-color: transparent;
+    height: 25%;
+    width: 100%;
+    bottom: 87px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .section3 .divEnglobante .animEnglobante:hover .divBlack {
+    background-color: black;
+    width: 50%;
+    text-align: center;
+    color: white;
+    height: 50%;
+  }
+  .section3 .divEnglobante .animEnglobante:hover .divRed {
+    background-color: red;
+    width: 50%;
+    text-align: center;
+    color: white;
+    height: 50%;
+  }
   .section3 .divEnglobante button {
     background-color: red;
     width: 50px;
@@ -424,6 +528,11 @@ body .nav .menu > p:hover {
   color: wheat;
 }
 
+@media (min-width: 1351px) {
+  .section5 h5, .section5 .h5 {
+    text-align: center;
+  }
+}
 @media (min-width: 320px) and (max-width: 1350px) {
   .section6 {
     display: flex;

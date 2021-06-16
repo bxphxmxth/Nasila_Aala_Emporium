@@ -35,6 +35,79 @@
               align-items: center;
               margin-left: 10%;
 
+              .animEnglobante{
+               position: absolute;
+               background-color: transparent;
+               height: 25%;
+               width: 100%;
+               bottom: 87px;
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               color: transparent;
+               
+
+           .divBlack{
+                background-color: transparent;
+                width: 50%;
+                text-align: center;
+                color: white;
+                height: 50%;
+                color: transparent;
+
+           }
+
+           .divRed{
+                background-color: transparent;
+                width: 50%;
+                text-align: center;
+                color: white;
+                height: 50%;
+                color: transparent;
+
+
+
+
+           }
+           
+
+          }
+
+          .animEnglobante:hover{
+           position: absolute;
+           background-color: transparent;
+           height: 25%;
+           width: 100%;
+           bottom: 87px;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+
+       .divBlack{
+            background-color: black;
+            width: 50%;
+            text-align: center;
+            color: white;
+            height: 50%;
+            font-size: 50%;
+
+
+       }
+
+       .divRed{
+            background-color: red;
+            width: 50%;
+            text-align: center;
+            color: white;
+            height: 50%;
+            font-size: 50%;
+
+
+
+
+       }
+     }
+
 
                button{
                     background-color: red;
@@ -110,6 +183,79 @@
               align-items: center;
               margin-left: 10%;
 
+              
+
+              .animEnglobante{
+                   position: absolute;
+                   background-color: transparent;
+                   height: 25%;
+                   width: 100%;
+                   bottom: 87px;
+                   display: flex;
+                   justify-content: center;
+                   align-items: center;
+                   color: transparent;
+                   
+
+               .divBlack{
+                    background-color: transparent;
+                    width: 50%;
+                    text-align: center;
+                    color: white;
+                    height: 50%;
+                    color: transparent;
+
+               }
+
+               .divRed{
+                    background-color: transparent;
+                    width: 50%;
+                    text-align: center;
+                    color: white;
+                    height: 50%;
+                    color: transparent;
+
+
+
+
+               }
+               
+
+              }
+
+              .animEnglobante:hover{
+               position: absolute;
+               background-color: transparent;
+               height: 25%;
+               width: 100%;
+               bottom: 87px;
+               display: flex;
+               justify-content: center;
+               align-items: center;
+
+           .divBlack{
+                background-color: black;
+                width: 50%;
+                text-align: center;
+                color: white;
+                height: 50%;
+
+           }
+
+           .divRed{
+                background-color: red;
+                width: 50%;
+                text-align: center;
+                color: white;
+                height: 50%;
+
+
+
+
+           }
+           
+
+          }
 
                button{
                     background-color: red;
