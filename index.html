@@ -28,7 +28,7 @@
      <div class="nightModeCo">
           <button class="light"></button>
           <button class="night"></button>
-          <button class="connexion">CONNEXION</button>
+          <button id="popup" onclick="div_show()">CONNEXION</button>
 
 
      </div>
@@ -317,10 +317,54 @@
 
 
 
+<!-- Formulaire -->
+
+
+<!-- <h2>Popup Form</h2>
+<p>Click on the "Open Form" button to open the popup form.</p>
+<div class="openBtn">
+  <button class="openButton" onclick="openForm()"><strong>Open Form</strong></button>
+</div>
+<div class="loginPopup">
+  <div class="formPopup" id="popupForm">
+    <form action="/action_page.php" class="formContainer">
+      <h2>Please Log in</h2>
+      <label for="email">
+        <strong>E-mail</strong>
+      </label>
+      <input type="text" id="email" placeholder="Your Email" name="email" required>
+      <label for="psw">
+        <strong>Password</strong>
+      </label>
+      <input type="password" id="psw" placeholder="Your Password" name="psw" required>
+      <button type="submit" class="btn">Log in</button>
+      <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+    </form>
+  </div>
+</div> -->
 
 
 
-
+<div id="abc">
+     <!-- Popup Div Starts Here -->
+     <div id="popupContact">
+     <!-- Contact Us Form -->
+     <form action="#" id="form" method="post" name="form">
+     <img id="close" src="images/3.png" onclick ="div_hide()">
+     <h2>Contact Us</h2>
+     <hr>
+     <input id="name" name="name" placeholder="Name" type="text">
+     <input id="email" name="email" placeholder="Email" type="text">
+     <textarea id="msg" name="message" placeholder="Message"></textarea>
+     <a href="javascript:%20check_empty()" id="submit">Send</a>
+     </form>
+     </div>
+     <!-- Popup Div Ends Here -->
+     </div>
+     <!-- Display Popup Button -->
+     <h1>Click Button To Popup Form Using Javascript</h1>
+     <!-- <button id="popup" onclick="div_show()">Popup</button> -->
+</div>
 
 
 

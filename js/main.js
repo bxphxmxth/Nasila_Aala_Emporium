@@ -50,7 +50,58 @@ light.addEventListener("click", () => {
 
 })
 
-// Section 2 night mode
+//  Pop up connexion 
+
+
+// function openTheForm() {
+//     document.getElementById("popupForm").style.display = "block";
+//   }
+  
+//   function closeTheForm() {
+//     document.getElementById("popupForm").style.display = "none";
+//   }
+
+//   function openForm() {
+//     document.getElementById("popupForm").style.display = "block";
+//   }
+//   function closeForm() {
+//     document.getElementById("popupForm").style.display = "none";
+//   }
+
+//   Me 
+
+let openBtn = document.getElementsByTagName("button")[2];
+console.log(openBtn);
 
 
 
+// / Validating Empty Field
+function check_empty() {
+if (document.getElementById('name').value == "" || document.getElementById('email').value == "" || document.getElementById('msg').value == "") {
+alert("Fill All Fields !");
+} else {
+document.getElementById('form').submit();
+alert("Form Submitted Successfully...");
+}
+}
+//Function To Display Popup
+// let div_show = () =>{
+//     document.getElementById('abc').style.display = "block";
+
+// }
+
+// openBtn.addEventListener("click", div_show);
+
+// let div_hide = () =>{
+//     document.getElementById('abc').style.display = "none";
+// }
+
+// openBtn.addEventListener("click", div_hide);
+
+function div_show() {
+document.getElementById('abc').style.display = "block";
+}
+//Function to Hide Popup
+function div_hide(){
+document.getElementById('abc').style.display = "none";
+}
