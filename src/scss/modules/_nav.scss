@@ -44,19 +44,23 @@
 
 }
 
-.changeNav{
-     background-color: white;
-     position: fixed;   
-     width: 100%;
-     z-index: 1;
 
-     .emporium{
-          position: absolute;
-         bottom: 5%;
+
+@media (min-width : 320px) and (max-width: 1350px){
+
+     .nav{
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+
      }
-     
+
      .menu{
-     
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          align-items: center;
+
           p{
                cursor: pointer;
           }
@@ -83,26 +87,6 @@
                }
      
           }
-          
-     }
- 
-
-}
-
-@media (min-width : 320px) and (max-width: 1350px){
-
-     .nav{
-          display: flex;
-          flex-direction: column;
-          width: 100%;
-
-     }
-
-     .menu{
-          display: flex;
-          flex-wrap: wrap;
-          justify-content: space-between;
-          align-items: center;
          
      }
 
@@ -123,5 +107,50 @@
           width: 70%;
           margin-left: 15%;
          
+     }
+
+     .changeNav{
+          background-color: white;
+          position: fixed;   
+          width: 100%;
+          z-index: 1;
+     
+          .emporium{
+               position: absolute;
+              bottom: 5%;
+          }
+          
+          .menu{
+          
+               p{
+                    cursor: pointer;
+               }
+               
+               .nightModeCo{
+                    
+                    .light{
+                         background-color: white;
+                         border-radius: 5px ;
+                         width: 18px;
+                         height: 18px;
+                         cursor: pointer;
+                    }
+                    .night{
+                         background-color: black;
+                         border-radius: 5px;
+                         width: 18px;
+                         height: 18px;
+                         cursor: pointer;
+                    }
+                    .connexion{
+                         background-color: rgb(209, 204, 204);
+                         cursor: pointer;
+                    }
+          
+               }
+               
+          }
+      
+     
      }
 }
