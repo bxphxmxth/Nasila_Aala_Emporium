@@ -30,6 +30,9 @@ body .nav .menu .nightModeCo .connexion {
   background-color: #d1cccc;
   cursor: pointer;
 }
+body .nav .menu > p:hover {
+  color: grey;
+}
 
 @media (min-width: 320px) and (max-width: 1350px) {
   .nav {
@@ -64,6 +67,10 @@ body .nav .menu .nightModeCo .connexion {
   .menu .nightModeCo .connexion {
     background-color: #d1cccc;
     cursor: pointer;
+  }
+
+  .menu > p:hover {
+    color: grey;
   }
 }
 @media (min-width: 1351px) {

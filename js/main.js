@@ -102,10 +102,10 @@ function div_show2() {
 
   window.onscroll = function () { 
       "use strict";
-      if (document.body.scrollTop >= 200 ) {
+      if (document.body.scrollTop = 0 ) {
           
-          myNav.classList.remove("nav");
-          myNav.setAttribute("class","changeNav");
+          
+          myNav.setAttribute("class","nav");
           
       } 
       else {
