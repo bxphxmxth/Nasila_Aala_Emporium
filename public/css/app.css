@@ -1,29 +1,32 @@
 @charset "UTF-8";
-.nav {
+body {
+  border: solid transparent;
+}
+body .nav {
   position: fixed;
   z-index: 1;
 }
-.nav .emporium {
+body .nav .emporium {
   text-align: center;
 }
-.nav .menu p {
+body .nav .menu p {
   cursor: pointer;
 }
-.nav .menu .nightModeCo .light {
+body .nav .menu .nightModeCo .light {
   background-color: white;
   border-radius: 5px;
   width: 18px;
   height: 18px;
   cursor: pointer;
 }
-.nav .menu .nightModeCo .night {
+body .nav .menu .nightModeCo .night {
   background-color: black;
   border-radius: 5px;
   width: 18px;
   height: 18px;
   cursor: pointer;
 }
-.nav .menu .nightModeCo .connexion {
+body .nav .menu .nightModeCo .connexion {
   background-color: #d1cccc;
   cursor: pointer;
 }
