@@ -52,28 +52,12 @@ light.addEventListener("click", () => {
 
 //  Pop up connexion 
 
-
-// function openTheForm() {
-//     document.getElementById("popupForm").style.display = "block";
-//   }
-  
-//   function closeTheForm() {
-//     document.getElementById("popupForm").style.display = "none";
-//   }
-
-//   function openForm() {
-//     document.getElementById("popupForm").style.display = "block";
-//   }
-//   function closeForm() {
-//     document.getElementById("popupForm").style.display = "none";
-//   }
-
 //   Me 
 
 let openBtn = document.getElementsByTagName("button")[2];
 console.log(openBtn);
 
-
+// div popup connexion
 
 function div_show() {
 document.getElementById('abc').style.display = "block";
@@ -84,12 +68,28 @@ document.getElementById('abc').style.display = "none";
 }
 
 // / Validating Empty Field
-function check_empty() {
-if (document.getElementById('name').value == "" || document.getElementById('email').value == "" || document.getElementById('msg').value == "") {
-alert("Fill All Fields !");
-} else {
-document.getElementById('form').submit();
-alert("Form Submitted Successfully...");
-}
-}
+// function check_empty() {
+// if (document.getElementById('name').value == "" || document.getElementById('email').value == "" || document.getElementById('msg').value == "") {
+// alert("Fill All Fields !");
+// } else {
+// document.getElementById('form').submit();
+// alert("Form Submitted Successfully...");
+// }
+// }
 
+// Div pop up inscription 
+
+let btnInscription = document.getElementsByClassName("inscription")[0];
+console.log(btnInscription);
+
+function div_show2() {
+    document.getElementById('enregistrement').style.display = "block";
+    }
+
+
+  let showInscription = () =>{
+   
+    document.getElementById('enregistrement').style.display = "block";
+  }  
+
+  btnInscription.addEventListener("click",showInscription)
