@@ -120,25 +120,29 @@ function div_show2() {
 
   // Carourou
 
-  let sliderWrap = document.querySelector(".slider-wrap");
-  let slider = document.querySelector(".slider");
-  let clonesWidth;
-  let sliderWidth;
-  let clones = [];
-  let disableScroll = false;
-  let scrollPos;
+ let slider = document.querySelector(".slider");
+
+ let prev = document.querySelector(".prev");
+
+ let next = document.querySelector(".next");
+
+ prev.addEventListener("click", function(){
+  slider.style.transform = "translate(20%)";
+  carousel.style.justifyContent = 
+})
 
 
-  let items = [...document.querySelectorAll(".slider-item")];
-  let images = [...document.querySelectorAll(".img-div")];
 
-  images.forEach((image,idx) => {
-    image.style.backgroundImage = `url(./images/${idx+1}.jpeg)`
-  });
+ next.addEventListener("click", function(){
+   slider.style.transform = "translate(-20%)"
+ })
 
-  items.forEach(item => {
-    let clone = item.cloneNode(true);
-    clone.classList.add("clone");
-    slider.appendChild("clone");
-    clones.push(clone);
-  });
+ slider.addEventListener("click", function(){
+   slider.appendChild(slider.firstElementChild);
+    slider.style.transition ="none";
+   slider.style.transform = "translate(0)";
+   setTimeout(function(){
+    slider.style.transition = "all 0.5s"
+
+   })
+ })
