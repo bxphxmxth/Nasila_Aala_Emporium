@@ -507,16 +507,6 @@ body .nav .menu > p:hover {
     text-decoration: line-through;
     color: grey;
   }
-  .section3 .animEnglobante2 {
-    position: absolute;
-    z-index: 5;
-    background-color: red;
-    height: 25%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
 }
 .section4 {
   background-image: url(../img/cta-bg.jpg);
@@ -540,9 +530,55 @@ body .nav .menu > p:hover {
   color: wheat;
 }
 
+@media (min-width: 320px) and (max-width: 1350px) {
+  .slider-wrap {
+    margin-left: 10%;
+    width: 80%;
+    height: 300px;
+    overflow: hidden;
+    border: 1px solid black;
+    margin-top: 10%;
+  }
+}
 @media (min-width: 1351px) {
   .section5 h5, .section5 .h5 {
     text-align: center;
+  }
+  .section5 .slider-wrap {
+    position: relative;
+    margin-left: 10%;
+    width: 80%;
+    height: 300px;
+    overflow: hidden;
+    border: 1px solid black;
+    margin-top: 10%;
+  }
+  .section5 .slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 4000px;
+    display: flex;
+    will-change: transform;
+    background-color: black;
+  }
+
+  .slider-item {
+    position: relative;
+    flex: 1;
+    overflow: hidden;
+    filter: grayscale(100%);
+  }
+
+  .img-div {
+    position: relative;
+    left: 1%;
+    top: 2.5%;
+    width: 98%;
+    height: 95%;
+    background-size: cover;
+    background-position: center;
   }
 }
 @media (min-width: 320px) and (max-width: 1350px) {

@@ -116,19 +116,29 @@ function div_show2() {
   }}
 
 
-//   $(document).ready(function(){       
-//     var scroll_start = 0;
-//     var startchange = $('#startchange');
-//     var offset = startchange.offset();
-//      if (startchange.length){
-//     $(document).scroll(function() { 
-//        scroll_start = $(this).scrollTop();
-//        if(scroll_start > offset.top) {
-//            $(".navbar-default").css('background-color', '#f0f0f0');
-//         } else {
-//            $('.navbar-default').css('background-color', 'transparent');
-//         }
-//     });
-//      }
-//  });
 
+
+  // Carourou
+
+  let sliderWrap = document.querySelector(".slider-wrap");
+  let slider = document.querySelector(".slider");
+  let clonesWidth;
+  let sliderWidth;
+  let clones = [];
+  let disableScroll = false;
+  let scrollPos;
+
+
+  let items = [...document.querySelectorAll(".slider-item")];
+  let images = [...document.querySelectorAll(".img-div")];
+
+  images.forEach((image,idx) => {
+    image.style.backgroundImage = `url(./images/${idx+1}.jpeg)`
+  });
+
+  items.forEach(item => {
+    let clone = item.cloneNode(true);
+    clone.classList.add("clone");
+    slider.appendChild("clone");
+    clones.push(clone);
+  });
