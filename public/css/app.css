@@ -530,12 +530,11 @@ body .nav .menu > p:hover {
   color: wheat;
 }
 
-.container {
+.section5 .container {
   width: 80%;
   margin: 20px auto;
 }
-
-.carousel {
+.section5 .carousel {
   background: #fff;
   border: 2px solid #c058dc;
   border-radius: 5px;
@@ -546,54 +545,41 @@ body .nav .menu > p:hover {
   overflow: hidden;
   position: relative;
 }
-
-.slider {
+.section5 .slider {
   display: flex;
   height: 100%;
-  width: 500%;
+  width: 200%;
   flex-shrink: 0;
   transition: all 0.5s;
 }
-
-section {
+.section5 section {
   flex-basis: 20%;
   flex-shrink: 0;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   font-size: 20px;
+  margin: 0;
+  padding: 0;
 }
-section img {
-  width: 40%;
+.section5 section img {
+  width: 50%;
   background-size: contain;
   height: 100%;
   border: solid red;
 }
-
-.controls button.next {
-  position: absolute;
-  right: 20px;
-  top: 20px;
-  background: none;
-  border: none;
-  cursor: pointer;
-  outline: none;
-  color: #c058dc;
+.section5 .controls {
+  display: flex;
+  justify-content: center;
+  width: 10%;
+  justify-content: space-around;
+  margin-left: 45%;
 }
-
-.controls button.prev {
-  position: absolute;
-  left: 20px;
-  top: 20px;
-  background: none;
-  border: none;
-  cursor: pointer;
-  outline: none;
-  color: #c058dc;
-}
-
-.controls button i {
-  font-size: 10px;
+.section5 .controls button {
+  border-radius: 30px;
+  height: 30px;
+  width: 30px;
+  border: black solid;
 }
 
 @media (min-width: 320px) and (max-width: 1350px) {
