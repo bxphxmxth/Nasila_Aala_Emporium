@@ -473,6 +473,7 @@ body .nav .menu > p:hover {
     text-align: center;
     color: white;
     height: 50%;
+    transition: 0.5s;
   }
   .section3 .divEnglobante .animEnglobante:hover .divRed {
     background-color: red;
@@ -480,6 +481,7 @@ body .nav .menu > p:hover {
     text-align: center;
     color: white;
     height: 50%;
+    transition: 0.5s;
   }
   .section3 .divEnglobante button {
     background-color: red;
@@ -504,6 +506,16 @@ body .nav .menu > p:hover {
   .section3 .divEnglobante span {
     text-decoration: line-through;
     color: grey;
+  }
+  .section3 .animEnglobante2 {
+    position: absolute;
+    z-index: 5;
+    background-color: red;
+    height: 25%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 .section4 {
