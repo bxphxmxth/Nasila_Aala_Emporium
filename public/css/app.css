@@ -26,9 +26,10 @@ body .nav .menu .nightModeCo .night {
   height: 18px;
   cursor: pointer;
 }
-body .nav .menu .nightModeCo .connexion {
-  background-color: #d1cccc;
+body .nav .menu .nightModeCo .a {
+  background-color: grey;
   cursor: pointer;
+  color: white;
 }
 body .nav .menu > p:hover {
   color: grey;
@@ -64,9 +65,10 @@ body .nav .menu > p:hover {
     height: 18px;
     cursor: pointer;
   }
-  .menu .nightModeCo .connexion {
-    background-color: #d1cccc;
+  .menu .nightModeCo .a {
+    background-color: grey;
     cursor: pointer;
+    color: white;
   }
 
   .menu > p:hover {
@@ -116,9 +118,10 @@ body .nav .menu > p:hover {
     height: 18px;
     cursor: pointer;
   }
-  .changeNav .menu .nightModeCo .connexion {
-    background-color: #d1cccc;
+  .changeNav .menu .nightModeCo .a {
+    background-color: grey;
     cursor: pointer;
+    color: white;
   }
 }
 @media (min-width: 320px) and (max-width: 1350px) {
