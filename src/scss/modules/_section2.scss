@@ -8,9 +8,10 @@
                display: flex;
                justify-content: space-between;
                flex-direction: column;
+               text-align: center;
 
                .img_1{
-
+                    
                     img{
                          width: 90%;
                          position: inherit;
@@ -106,7 +107,7 @@
 
                     .living-room{
 
-                     margin-left: 8%;
+                     margin-left: 5%;
                      margin-top: 5%;
                     
                    
@@ -123,13 +124,14 @@
 
 
                     .clothes{
-                     margin-left: 12%;
+                         margin-left: 10%;
+
                      margin-top: 5%;
                     }
 
 
                     hr{
-                         width: 400px;
+                         width: 300px;
                          margin-top: 9%;
                          position: absolute;
                          margin-left: 5%;
