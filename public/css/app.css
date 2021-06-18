@@ -335,6 +335,7 @@ body .nav .menu > p:hover {
     justify-content: center;
     align-items: center;
     color: transparent;
+    left: 0;
   }
   .section3 .divEnglobante .animEnglobante .divBlack {
     background-color: transparent;
@@ -577,17 +578,38 @@ body .nav .menu > p:hover {
 .section5 .controls {
   display: flex;
   justify-content: center;
-  width: 10%;
   justify-content: space-around;
-  margin-left: 45%;
 }
 .section5 .controls button {
   border-radius: 30px;
-  height: 30px;
-  width: 30px;
   border: black solid;
 }
 
+@media (min-width: 320px) and (max-width: 1350px) {
+  .controls {
+    margin-left: 35%;
+    width: 30%;
+  }
+  .controls button {
+    height: 20px;
+    width: 20px;
+  }
+}
+@media (min-width: 1351px) {
+  .controls {
+    display: flex;
+    justify-content: center;
+    width: 10%;
+    justify-content: space-around;
+    margin-left: 45%;
+  }
+  .controls button {
+    border-radius: 30px;
+    height: 30px;
+    width: 30px;
+    border: black solid;
+  }
+}
 @media (min-width: 320px) and (max-width: 1350px) {
   .section6 {
     display: flex;

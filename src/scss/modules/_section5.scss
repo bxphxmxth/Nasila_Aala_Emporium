@@ -53,14 +53,14 @@
       .controls{
           display: flex;
           justify-content: center;
-          width: 10%;
+          // width: 10%;
           justify-content: space-around;
-          margin-left: 45%;
+          // margin-left: 45%;
     
           button{
               border-radius: 30px;
-              height: 30px;
-              width: 30px;
+              // height: 30px;
+              // width: 30px;
               border: black solid;
           }
     
@@ -70,3 +70,37 @@
 
 }
 
+@media (min-width : 320px) and (max-width: 1350px){
+
+ .controls{
+             margin-left: 35%;
+
+
+  width: 30%;
+  button{
+    height: 20px;
+    width: 20px;
+  }
+ }
+
+}
+
+@media (min-width : 1351px){
+     
+  .controls{
+    display: flex;
+    justify-content: center;
+    width: 10%;
+    justify-content: space-around;
+    margin-left: 45%;
+
+    button{
+        border-radius: 30px;
+        height: 30px;
+        width: 30px;
+        border: black solid;
+    }
+
+}
+
+}
