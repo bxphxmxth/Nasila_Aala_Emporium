@@ -143,6 +143,8 @@ body .nav .menu > p:hover {
     font-size: 40px;
     margin: 0;
     padding: 0;
+    background-color: #F3F3F3;
+    text-align: start;
   }
   .section1 .divShop .h2h1pb h1, .section1 .divShop .h2h1pb .h1 {
     font-size: 60px;
@@ -189,6 +191,8 @@ body .nav .menu > p:hover {
     font-size: 40px;
     margin: 0;
     padding: 0;
+    background-color: #F3F3F3;
+    text-align: start;
   }
   .section1 .divShop .h2h1pb h1, .section1 .divShop .h2h1pb .h1 {
     font-size: 70px;
