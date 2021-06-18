@@ -82,6 +82,9 @@ alert("Form Submitted Successfully...");
 }
 }
 
+
+
+
 // Div pop up inscription 
 
 let btnInscription = document.getElementsByClassName("inscription")[0];
