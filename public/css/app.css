@@ -1,6 +1,6 @@
 @charset "UTF-8";
 body {
-  border: solid transparent;
+  border: solid white;
 }
 body .nav {
   position: fixed;
@@ -440,6 +440,7 @@ body .nav .menu > p:hover {
     justify-content: center;
     align-items: center;
     color: transparent;
+    left: 0;
   }
   .section3 .divEnglobante .animEnglobante .divBlack {
     background-color: transparent;
@@ -530,13 +531,18 @@ body .nav .menu > p:hover {
   color: wheat;
 }
 
+.section5 h5, .section5 .h5 {
+  text-align: center;
+  margin-top: 3%;
+  font-size: 30px;
+  font-weight: bold;
+}
 .section5 .container {
   width: 80%;
   margin: 20px auto;
 }
 .section5 .carousel {
   background: #fff;
-  border: 2px solid #c058dc;
   border-radius: 5px;
   width: 100%;
   height: 300px;

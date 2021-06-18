@@ -17,7 +17,10 @@ let divSection2 = document.getElementsByClassName("LivingSaleClothes")[0];
 
 let recents = document.getElementsByClassName("recentsProducts")[0];
 
-let section1 = document.getElementsByClassName("section1")[0]
+let section1 = document.getElementsByClassName("section1")[0];
+
+let titreSection5 = document.getElementsByClassName("title5")[0];
+console.log(titreSection5);
 
 
 night.addEventListener("click", () => {
@@ -30,6 +33,7 @@ night.addEventListener("click", () => {
     recents.style.backgroundColor = "black";
     recents.style.color = "white";
     section1.style.backgroundColor = "black";
+    titreSection5.style.color = "white";
 
 })
 
@@ -47,6 +51,7 @@ light.addEventListener("click", () => {
     recents.style.backgroundColor = "white";
     recents.style.color = "black";
     section1.style.backgroundColor = "white";
+    titreSection5.style.color = "black";
 
 })
 
@@ -120,11 +125,11 @@ function div_show2() {
 
   // Carourou
 
-  const carousel = document.querySelector('.carousel');
-  const slider = document.querySelector('.slider');
+  let carousel = document.querySelector('.carousel');
+  let slider = document.querySelector('.slider');
   
-  const next = document.querySelector('.next');
-  const prev = document.querySelector('.prev');
+  let next = document.querySelector('.next');
+  let prev = document.querySelector('.prev');
   let direction;
   
   next.addEventListener('click', function() {
